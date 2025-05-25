@@ -1,8 +1,9 @@
 # 🧬 Reactive Defense
 
 **Reactive Defense**, Web Tabanlı Programlama dersi kapsamında geliştirilen bir HTML5 Canvas oyunudur.  
-Oyunda bir **T hücresi** olarak, vücuda saldıran çeşitli virüslere karşı savunma yaparsınız.  
+Oyunda bir **T hücresi** olarak, vücuda saldıran çeşitli koronavirüs varyantlarına karşı savunma yaparsınız.  
 Amacınız, her seviyede gelen virüs dalgalarını yok ederek vücudu korumaktır.
+Farklı tipteki virüsler farklı koronavirüs varyantlarını, seviyeler ise pandemi dalgalarını temsil etmektedir.
 
 ---
 
