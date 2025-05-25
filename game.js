@@ -78,9 +78,9 @@ const difficultyButtons = [
 //Virüs tiplerinin özellikleri (sağlık değerleri zorluk seçimine göre bir katsayı ile çarpılır.)
 const virusTypes = {
     alpha: {speed: 1.5, size: 85, color: "yellow", health: 10, damage: 15},
-    delta: {speed: 2,size: 80, color: "navy", health: 20, damage: 20},
-    omicron: {speed: 2.3,size: 70, color: "purple", health: 25, damage: 25},
-    beta: {speed: 1.6,size: 95, color: "red", health: 35, damage: 30},
+    beta: {speed: 2,size: 80, color: "navy", health: 20, damage: 20},
+    delta: {speed: 2.3,size: 70, color: "purple", health: 25, damage: 25},
+    omicron: {speed: 1.6,size: 95, color: "red", health: 35, damage: 30},
 };
 
 //Virüslerin assetlerini "${key}.png" yoluyla ekle.
@@ -95,13 +95,13 @@ const levelData = [
     [ {type: "alpha",count: 3} ], //level 1
     [ {type: "alpha",count: 4} ], //level 2
     [ {type: "alpha",count: 5} ], //level 3
-    [ {type: "alpha",count: 4}, {type: "delta",count: 1} ], //level 4
-    [ {type: "alpha",count: 4}, {type: "delta",count: 2} ], //level 5
-    [ {type: "alpha",count: 3}, {type: "delta",count: 3} ], //level 5
-    [ {type: "alpha",count: 3}, {type: "delta",count: 3}, {type: "omicron",count: 1} ], //level 7
-    [ {type: "alpha",count: 3}, {type: "delta",count: 3}, {type: "omicron",count: 2} ], //level 8
-    [ {type: "alpha",count: 3}, {type: "delta",count: 3}, {type: "omicron",count: 3} ], //level 9
-    [ {type: "alpha",count: 3}, {type: "delta",count: 3}, {type: "omicron",count: 3}, {type: "beta",count: 3} ] //level 10 
+    [ {type: "alpha",count: 4}, {type: "beta",count: 1} ], //level 4
+    [ {type: "alpha",count: 4}, {type: "beta",count: 2} ], //level 5
+    [ {type: "alpha",count: 3}, {type: "beta",count: 3} ], //level 5
+    [ {type: "alpha",count: 3}, {type: "beta",count: 3}, {type: "delta",count: 1} ], //level 7
+    [ {type: "alpha",count: 3}, {type: "beta",count: 3}, {type: "delta",count: 2} ], //level 8
+    [ {type: "alpha",count: 3}, {type: "beta",count: 3}, {type: "delta",count: 3} ], //level 9
+    [ {type: "alpha",count: 3}, {type: "beta",count: 3}, {type: "delta",count: 3}, {type: "omicron",count: 3} ] //level 10 
 ];
 
 canvas.addEventListener("click", function (event) {
